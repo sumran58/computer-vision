@@ -20,3 +20,16 @@ sobel and prewit have 2 filtes gx and gy whihc detecs edges in the vertical and 
 it uses the second derivtive of image intensity and detectes the edegs all at onces measn there are no 2 filters for x axis and y axis  so in a single response only it can detect the edges all at once 
 
 
+# learing rate :-
+it means how quickly model is updating and if it too small it wil be too small nd too bifg then we can mis the local minima 
+
+# hyperparametrs
+epochs
+learning rate
+batch size 
+nodes in hidden layer 
+img height/width
+
+# W&B is used today in real-world ML and AI engineering workflows. It is especially useful when teams train multiple models, compare experiments, tune hyperparameters, and track results.
+uv add wandb
+wandb login
