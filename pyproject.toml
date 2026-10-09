@@ -7,7 +7,10 @@ authors = [
     { name = "Sumran Harchirkar", email = "sumranharchirkar58@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "tensorflow>=2.21.0",
+]
 
 [project.scripts]
 computer-vision = "computer_vision:main"
