@@ -33,3 +33,19 @@ img height/width
 # W&B is used today in real-world ML and AI engineering workflows. It is especially useful when teams train multiple models, compare experiments, tune hyperparameters, and track results.
 uv add wandb
 wandb login
+
+# overfitting prevention techniques 
+# 1.regularization :
+it adds a penalty to the loss term 
+l1(lasso) It adds the absolute values of the model weights to the loss. ansd push ome wieghts exactly to zero and does automatic feature selection 
+
+l2(ridge) :It adds the squared values of the model weights to the loss.  shrnks the weights to zeo and doesnt make it zero 
+
+# 2 .dropout layers 
+dropput is also a regularization technique which randomly switches off some neurons duyring the training phase so that  other neurons are not toallat dpendent on a s epcific neuron depending on the p va;lue like 0l.1,0.2 ,0.5 which is 10 %,20%,50% some neurons duringf the training phase only it is switched off and during the inference all the neurons are active . it prevens overfitting because for eg uin a group here is one student who knows all the naswers then all the other students are deondent of thta student but if that student is unavailable then entire group is going to struggle but if everyone know sme concepts then the group will excel the same idea is the droput layers 
+
+# 3.early stopping 
+Early stopping is a regularization technique used to prevent overfitting. During training, we monitor the model's performance on validation data. When the validation loss stops improving for a specified number of epochs, called patience, we stop training. By restoring the best weights, we retain the model that performed best on the validation data.
+
+# 4.batch normalization 
+Batch Normalization is a technique used in deep neural networks to normalize layer activations using the mean and variance of a mini-batch. It then applies learnable scale(gamma) and shift(beta) parameters. This often makes training more stable and faster, and it can provide a mild regularization effect. During inference, BatchNorm typically uses running estimates of the mean and variance collected during training.
