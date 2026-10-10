@@ -61,4 +61,11 @@ it means using already trained model and then reuiusng it for the new task
 
  # a. fixed feature extraction : freexe the pretrained model and use it to just extract the fetures 
  # b.fine tuning : unfreexing the top layers and retraining for better adaption 
- 
+
+ # CNN
+ pooling is a technique in cnn that reduces the size of the feature maop whilke retaining the important information . types are max pooling average pooling , max pooling is mostly used ..basically it is a downsampling technique
+
+ # alexnet complete;y chnages the dnn
+ it changes how computer visiosn was implemented AlexNet is one of the CNN architectures that made deep learning famous for image classification. It won the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) in 2012 and helped popularize deep CNNs for computer vision.
+
+
