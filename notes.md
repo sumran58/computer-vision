@@ -68,4 +68,10 @@ it means using already trained model and then reuiusng it for the new task
  # alexnet complete;y chnages the dnn
  it changes how computer visiosn was implemented AlexNet is one of the CNN architectures that made deep learning famous for image classification. It won the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) in 2012 and helped popularize deep CNNs for computer vision.
 
+ # vggnet 
+ came up in 2014 and it won 2nd price in imagenet competition and it outperformed the older models like alexnet wuth a huge margin 
+
+VGGNet is a deep Convolutional Neural Network developed by the Visual Geometry Group (VGG) at the University of Oxford. It was introduced in 2014.
+Its main idea is simple: use small 3 × 3 convolution filters repeatedly to learn increasingly complex features from images.
+vgg18 hs 16 weight bearing layers 13 are the convolutiopnal latyers and 3 fully connected layers whreas alexnet has 5 and 3 total 8 ..alecnet me jo kernel sizes hai starting wale layers me 11 , 7 ,5 aise kam kam hote gaye but vgg me uniform size thi that was 3*3 on the deper layers which gave good results which also ouot performed the margin of the alkexnet model 
 
