@@ -75,3 +75,7 @@ VGGNet is a deep Convolutional Neural Network developed by the Visual Geometry G
 Its main idea is simple: use small 3 × 3 convolution filters repeatedly to learn increasingly complex features from images.
 vgg18 hs 16 weight bearing layers 13 are the convolutiopnal latyers and 3 fully connected layers whreas alexnet has 5 and 3 total 8 ..alecnet me jo kernel sizes hai starting wale layers me 11 , 7 ,5 aise kam kam hote gaye but vgg me uniform size thi that was 3*3 on the deper layers which gave good results which also ouot performed the margin of the alkexnet model 
 
+# Googlenet (inception v1):-
+it won 1st price in 2014 where vgg won the 2nd price in the same competition 
+GoogLeNet introduced the Inception architecture, which extracts features at multiple spatial scales in parallel and concatenates them, while using 1×1 convolutions to reduce computation.
+
